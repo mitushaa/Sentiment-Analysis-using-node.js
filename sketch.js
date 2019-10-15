@@ -4,7 +4,7 @@ function preload() {
   afinn = loadJSON('afinn111.json');
 }
 
-
+//adding a new afinn 111 dictionary
 function setup() {
   noCanvas();
   console.log(afinn);
