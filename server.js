@@ -33,7 +33,7 @@ function addWord(request, response) {
       console.log('all set.');
     }
     reply = {
-      msg: "Thank you for your word."
+      msg: "Thank you."
     }
   }
     response.send(reply);
