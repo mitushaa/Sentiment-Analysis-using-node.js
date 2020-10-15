@@ -22,7 +22,7 @@ function addWord(request, response) {
   var reply;
   if (!score) {
     reply= {
-      msg: "Score is required."
+      msg: "You score is required."
     }
   }else {
     words[word] = score;
@@ -33,7 +33,7 @@ function addWord(request, response) {
       console.log('all set.');
     }
     reply = {
-      msg: "Thank you."
+      msg: "Thank you for submitting your score."
     }
   }
     response.send(reply);
